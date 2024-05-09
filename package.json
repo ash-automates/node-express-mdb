@@ -1,0 +1,19 @@
+{
+  "name": "express-mdb",
+  "version": "1.0.0",
+  "description": "Learning nodejs-express-mongodb by serving a dynamic blog site with dummy data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
