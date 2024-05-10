@@ -1,9 +1,12 @@
 const path = require("path");
 const express = require("express");
+const morgan = require("morgan");
 const app = express();
 const port = 8000;
 
 app.set("view engine", "ejs");
+app.use(morgan("tiny"));
+app.use(express.static(path.join(__dirname, "public")));
 
 const blogs = [
   {
